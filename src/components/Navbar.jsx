@@ -4,7 +4,7 @@ import loginButton from "../Rectangle.png"
 export const Navbar = () => {
   return (
     <div>
-      <nav className="flex justify-between items-center space-x-2 mx-8 my-4 bg-[#D9D9D961] drop-shadow-xl px-10 h-16 rounded-2xl">
+      <nav className="flex z-10 justify-between items-center space-x-2 mx-8 my-4 bg-[#D9D9D961] drop-shadow-xl px-10 h-16 rounded-2xl">
         <div>
           <img src={logo} alt="LogoZelimo" />
         </div>
