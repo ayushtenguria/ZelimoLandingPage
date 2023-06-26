@@ -10,7 +10,9 @@ export const Pricing = () => {
           </h1>
           <p>Lorem ipssum kuch bhi aira gera likhdo for dummy text</p>
         </div>
-        <div>
+        <div className="grid justify-center md:grid-cols-3 gap-10 md:gap-2 mt-6 md:ml-20 md:p-4">
+          <PricingCard />
+          <PricingCard />
           <PricingCard />
         </div>
       </div>
