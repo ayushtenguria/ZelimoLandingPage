@@ -14,7 +14,7 @@ export const PricingCard = () => {
       </div>
       <div className="text-lg">
         <ul className="text-[#7C2D12] font-medium">
-            <p className="text-black font-medium">Feature:</p>
+          <p className="text-black font-medium">Feature:</p>
           <li>Feature 1</li>
           <li>fEATURE 2</li>
           <li>Feature 3</li>
@@ -25,7 +25,12 @@ export const PricingCard = () => {
           <li>Feature 8</li>
         </ul>
       </div>
-      <div><p className="text-2xl text-orange-400">Pricing Starts from <p className="decoration-2 underline">Rs.20,000/Month</p></p></div>
+      <div>
+        <p className="text-2xl text-orange-400">
+          Pricing Starts from{" "}
+          <p className="decoration-2 underline">Rs.20,000/Month</p>
+        </p>
+      </div>
     </div>
   );
 };
